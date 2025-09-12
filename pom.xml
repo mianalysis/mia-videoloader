@@ -5,7 +5,7 @@
     <groupId>io.github.mianalysis</groupId>
     <artifactId>VideoHandler</artifactId>
     <packaging>pom</packaging>
-    <version>1.7.0</version>
+    <version>1.7.1</version>
     <name>VideoHandler</name>
     <url>https://github.com/mianalysis/videohandler</url>
     <inceptionYear>2019</inceptionYear>
@@ -87,11 +87,11 @@
 
     <modules>
         <module>core</module>
-        <module>linux32</module>
-        <module>linux64</module>
-        <module>mac64</module>
-        <module>win32</module>
-        <module>win64</module>
+        <module>linux-x86_64</module>
+        <module>linux-arm64</module>
+        <module>macosx-x86_64</module>
+        <module>macosx-arm64</module>
+        <module>windows-x86_64</module>
     </modules>
 
     <repositories>
